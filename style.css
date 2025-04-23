@@ -38,27 +38,27 @@ body {
   z-index: 1000;
 }
 
-.nav-left .logo {
-  text-decoration: none;
+.logo {
   display: flex;
   align-items: center;
-  font-family: var(--font-couple);
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  letter-spacing: 0.15rem;
-}
-
-.nav-left .ampersand-logo {
-  font-family: var(--font-ampersand);
-  color: var(--text-color);
   font-size: 2rem;
-  margin: 0 0.25rem;
+  text-decoration: none;
+  letter-spacing: 0.2em;
 }
 
-.nav-right {
-  display: flex;
-  list-style: none;
-  gap: 2.5rem;
+.logo-name {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #938260; /* Gold tone from first image */
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.logo-ampersand {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.75rem;
+  color: #25442f; /* Green */
+  margin: 0 0.25rem;
+  text-transform: lowercase;
 }
 
 .nav-right li a {
