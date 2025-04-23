@@ -1,13 +1,13 @@
 /* Base Styles */
 :root {
   --text-color: #25442f;
-  --accent-color: #938260;
+  --accent-color: #bea277;
   --background-color: #ffffff;
 
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Poppins', sans-serif;
-  --font-couple: 'Cormorant Garamond', serif;
-  --font-ampersand: 'Cinzel Decorative', cursive;
+  --font-couple: 'Pinyon Script', cursive;
+  --font-ampersand: 'Pinyon Script', cursive;
 }
 
 * {
@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   font-family: var(--font-couple);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
   letter-spacing: 0.15rem;
 }
@@ -51,7 +51,7 @@ body {
 .nav-left .ampersand-logo {
   font-family: var(--font-ampersand);
   color: var(--text-color);
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 0.25rem;
 }
 
@@ -83,29 +83,34 @@ body {
 /* Header */
 header {
   height: 90vh;
-  background: url('timber-cove.png') center/cover no-repeat;
+  background: url('header-1.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 2rem;
   color: white;
+  background-blend-mode: multiply;
 }
 
 .hero-text h1 {
   font-family: var(--font-couple);
-  font-size: 55px;
-  letter-spacing: 1px;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .hero-text .ampersand {
   font-family: var(--font-ampersand);
   font-size: 28px;
+  text-transform: lowercase;
 }
 
 .hero-text p {
   font-size: 20px;
   margin-top: 0.5rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 /* Sections */
@@ -121,6 +126,8 @@ section h2 {
   color: var(--accent-color);
   margin-bottom: 1.5rem;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 section p {
@@ -195,4 +202,5 @@ footer {
     padding: 3rem 1rem;
   }
 }
+
 
