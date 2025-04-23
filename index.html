@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marin & Dave Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins:wght@300&family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text-color: #25442f;
+      --accent-color: #938260;
+      --background: #ffffff;
+      --font-heading: 'Poppins', sans-serif;
+      --font-body: 'Poppins', sans-serif;
+      --font-couple: 'Cormorant Garamond', serif;
+      --font-ampersand: 'Cinzel Decorative', cursive;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--background);
+      font-family: var(--font-body);
+      font-size: 18px;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    nav {
+      background-color: white;
+      border-bottom: 1px solid #eee;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-size: 18px;
+      color: var(--text-color);
+    }
+    header {
+      height: 90vh;
+      background: url('https://your-watercolor-image.jpg') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      color: white;
+    }
+    header h1 {
+      font-family: var(--font-couple);
+      font-size: 55px;
+      letter-spacing: 1px;
+    }
+    header span {
+      font-family: var(--font-ampersand);
+      font-size: 24px;
+    }
+    header p {
+      font-family: var(--font-body);
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-family: var(--font-heading);
+      font-size: 36px;
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .timeline {
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .timeline-item {
+      margin-bottom: 1.5rem;
+    }
+    .timeline-item h3 {
+      margin-bottom: 0.3rem;
+      font-size: 1.2rem;
+      color: var(--accent-color);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href=\"#our-story\">Our Story</a>
+    <a href=\"#timeline\">The Wedding Weekend</a>
+    <a href=\"#info\">Information</a>
+    <a href=\"#registry\">Registry</a>
+  </nav>
+  <header>
+    <h1>Marin <span>&</span> Dave</h1>
+    <p>September 13, 2025</p>
+  </header>
+  <section id=\"our-story\">
+    <h2>Our Story</h2>
+    <p>It all began with a chance meeting in San Francisco...</p>
+  </section>
+  <section id=\"timeline\">
+    <h2>The Wedding Weekend</h2>
+    <div class=\"timeline\">
+      <div class=\"timeline-item\">
+        <h3>Friday – Welcome Dinner</h3>
+        <p>6:00 PM · Garden Patio</p>
+      </div>
+      <div class=\"timeline-item\">
+        <h3>Saturday – Ceremony</h3>
+        <p>4:00 PM · Ocean Bluff</p>
+      </div>
+      <div class=\"timeline-item\">
+        <h3>Saturday – Reception</h3>
+        <p>6:00 PM · Main Hall</p>
+      </div>
+      <div class=\"timeline-item\">
+        <h3>Sunday – Farewell Brunch</h3>
+        <p>10:00 AM · Fireside Terrace</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    © 2025 Marin & Dave
+  </footer>
+</body>
+</html>
